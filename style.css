@@ -1,38 +1,64 @@
 header{
-    background-color: #22CC7E;
+    background-color: #eb6b44;
     padding-top: 10px;
     padding-bottom: 10px;
     font: bold;
 }
 
 #WebsiteTitle{
+    font-family: 'Krona One', sans-serif;
+   
     padding-left: 20px;
+ color: rgb(0, 0, 0);
 }
 
+#mainimg{
+    float: right;
+    margin-top: 60px;
+    margin-right: 30px;
+    padding: 20px;
+}
+
+/*
 nav{
     font: rgb(255, 255, 255);
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     height: 50px;
     display: flex;
     align-items: center;
 }
+*/
+nav{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+}
 
-nav li{
+nav li a{
+    text-decoration: none;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    color: rgb(255, 255, 255);
     
 }
 
-
+/*
 nav li a {
     font-weight: 500;
     text-decoration: none;
-    background-color: #22CC7E;
+    background-color: #c7c7c7;
     cursor: pointer;
     padding: 8px;
     border-radius: 25px;
 }
+*/
 
 nav li a:hover{
-    background-color: azure ;
+    background-color: rgb(109, 109, 109) ;
 }
 
 .navbutton{
