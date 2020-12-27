@@ -64,3 +64,41 @@ nav li a:hover{
 .navbutton{
     height: 50px;
 }
+
+#tagline{
+    font-size: 45px;
+   float: left;
+   margin-left: 50px;
+   margin-top: 250px;
+}
+
+#home{
+    color: #eb6b44;
+}
+
+.aboutus{
+    width: 600px;
+    float: left;
+    margin-left: 50px;
+
+   /* animation: type 4s steps(370);
+    overflow: hidden;
+    white-space: nowrap; */
+    
+}
+
+.aboutuspara{
+    font-size: 20px;
+    text-align: justify;
+}
+
+/*
+@keyframes type{
+    0%{
+        width: 0ch;
+    }
+    100%{
+        width: 370ch;
+    }
+}
+*/
