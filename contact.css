@@ -5,29 +5,14 @@ header{
     font: bold;
 }
 
-#WebsiteTitle{
+#mainheading
+{
     font-family: 'Krona One', sans-serif;
    
     padding-left: 20px;
  color: rgb(0, 0, 0);
 }
 
-#mainimg{
-    float: right;
-    margin-top: 60px;
-    margin-right: 30px;
-    padding: 20px;
-}
-
-/*
-nav{
-    font: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-    height: 50px;
-    display: flex;
-    align-items: center;
-}
-*/
 nav{
     display: flex;
     align-items: center;
@@ -65,40 +50,51 @@ nav li a:hover{
     height: 50px;
 }
 
-#tagline{
-    font-size: 45px;
-   float: left;
-   margin-left: 50px;
-   margin-top: 250px;
+.wrapper{
+    position: absolute;
+    top: 50%;
+   
+    width: 100%;
+    padding: 0 20px;
 }
 
-#home{
-    color: #eb6b44;
+.contact-form{
+    max-width: 550px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha) 
 }
 
-.aboutus{
-    width: 600px;
-    float: left;
-    margin-left: 50px;
-
-   /* animation: type 4s steps(370);
-    overflow: hidden;
-    white-space: nowrap; */
-    
+.input-fields{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
 }
 
-.aboutuspara{
-    font-size: 20px;
-    text-align: justify;
+.input-fields, .msg{
+    width: 48%;
 }
 
-/*
-@keyframes type{
-    0%{
-        width: 0ch;
-    }
-    100%{
-        width: 370ch;
-    }
+.input,  .msg textarea{
+    margin: 10px;
+  border-bottom: 2px solid black;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+ 
+   
 }
-*/
+
+.msg textarea{
+    height: 215px;
+}
+
+.btn{
+    background: #eb6b44;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+}
