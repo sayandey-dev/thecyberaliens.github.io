@@ -98,3 +98,20 @@ nav li a:hover{
     padding: 15px;
     border-radius: 5px;
 }
+
+.members
+{
+ border: 2px solid red;
+ margin: 10px;
+ width: 400px;
+}
+
+.developers
+{
+    border: 2px solid black;
+    position: relative;
+    top: 700px;
+    height: 400px;
+   display: flex;
+   
+
