@@ -83,6 +83,12 @@ nav li a:hover{
     color: #eb6b44;
 }
 
+/* body --------------------------------------------*/
+.alien_body{
+    justify-content: space-around;
+    display: flex;
+}
+
 .aboutus{
     width: 600px;
     margin-left: 50px;
