@@ -101,17 +101,133 @@ nav li a:hover{
 
 .members
 {
- border: 2px solid red;
+ /*border: 2px solid red;*/
  margin: 10px;
  width: 400px;
+ border-radius: 10px;
+ background-color: #eb6b44;
 }
 
 .developers
 {
-    border: 2px solid black;
+    border: 5px solid black;
     position: relative;
     top: 700px;
     height: 400px;
    display: flex;
+   border-radius: 10px;
+}
+
+#sayanimg{
+    /*border: 2px solid black;*/
+    height: 190px;
+}
+
+#sayanimg img{
+    height: 180px;
+    margin: auto;
+    padding-left: 90px;
+}
+
+/*#sayanimg img{
+    display: flex;
+    align-items: center;
+}*/
+
+/*#desg h2{
+    text-align: center;
+}
+
+#member1 button{
+    margin-left: 115px;
+    font-size: 15px;
+    margin-bottom: 10px;
+   
+}*/
+
+#member1 button:hover{
+    cursor: pointer;
+}
+
+/*#member1 button{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    position: relative;
+}*/
+
+
+.members .desg{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/*Suvasish details---------------------------------*/
+#suvaimg{
+    height: 190px;
+    
+}
+
+#suvaimg img
+{
+    height: 180px;
+    margin: auto;
+    padding-left: 90px;
+}
+
+/*Debabrata details------------------------------------*/
+#debaimg{
+    height: 190px;
+}
+
+#debaimg img{
+    height: 180px;
+    margin: auto;
+    padding-left: 90px;
+}
+
+/*Manas Dytta gupta details-------------------------------*/
+#manasimg{
+    height: 190px;
+}
+
+#manasimg img{
+    height: 180px;
+    margin: auto;
+    padding-left: 90px;
+}
+
+/* footer -----------------------------------------------------*/
+.alien_footer{
+    padding:1.5%;
+    justify-content: center;
+    font-family: monster_regular;
+    background-color: black;
+    color: white;
+}
+#change{
+    fill:white;
+}
+footer div a{
+    text-decoration: none;
+}
+footer div a svg{
+    margin: 0px 5px;
+}
+footer p{
+    padding: 5px 0;
+}
+footer p a{
+    text-decoration: none;
+    color: #eb6b44;
+    font-size: large;
+}
+
+footer{
+    margin-top: 710px;
+}
+
    
 
